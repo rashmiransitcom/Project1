@@ -17,7 +17,7 @@ public class SuperDepartment
 
   class AdminDepartment extends SuperDepartment{
 	String DepartmentName() {
-		return "Admin Department";
+		return " Admin Department";
 	}
 	String getTodaysWork() {
 		return "Complete your documents Submission";
@@ -29,22 +29,23 @@ public class SuperDepartment
 
   class HrDepartment extends SuperDepartment{
 	String DepartmentName(){
-		return "HR Department";
-	}
-	String getTodaysWork() {
-		return "Fill today’s worksheet and mark your attendance";
-	}
-	String getWorkDeadline() {
-		return "Complete by EOD";
+		return " HR Department";
 	}
 	String doActivity() {
 		return "Team Lunch";
 	}
+	String getTodaysWork() {
+		return "Fill today’s Markssheet and mark your attendance";
+	}
+	String getWorkDeadline() {
+		return "Complete by EOD";
+	}
+	
 	}
 
   class TechDepartment extends SuperDepartment{
 	String DepartmentName() {
-		return "Tech Department";
+		return " Tech Department";
 	}
 	String getTodaysWork() {
 		return "Complete coding of module 1";
